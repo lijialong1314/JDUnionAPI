@@ -1,0 +1,1326 @@
+2018-08-30 10:28:52 pid:15724 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 10:29:31 pid:15728 Error: Call to a member function getGoodsInfo() on null in /var/www/html/jd.open.beeapi.cn/start_http.php:33
+Stack trace:
+#0 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#1 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#2 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2244, 2, Resource id #2244)
+#4 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#5 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#6 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(92): Workerman\Worker->run()
+#7 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#8 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#9 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#11 /var/www/html/jd.open.beeapi.cn/start_http.php(70): Workerman\Worker::runAll()
+#12 {main}
+2018-08-30 10:29:31 pid:15728 Worker[15728] process terminated
+2018-08-30 10:29:31 pid:15724 worker[http:15728] exit with status 64000
+2018-08-30 10:29:35 pid:15729 Error: Call to a member function getGoodsInfo() on null in /var/www/html/jd.open.beeapi.cn/start_http.php:33
+Stack trace:
+#0 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#1 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#2 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2244, 2, Resource id #2244)
+#4 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#5 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#6 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(92): Workerman\Worker->run()
+#7 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#8 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#9 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#11 /var/www/html/jd.open.beeapi.cn/start_http.php(70): Workerman\Worker::runAll()
+#12 {main}
+2018-08-30 10:29:35 pid:15729 Worker[15729] process terminated
+2018-08-30 10:29:35 pid:15724 worker[http:15729] exit with status 64000
+2018-08-30 10:30:31 pid:15724 Workerman[start_http.php] stopping ...
+2018-08-30 10:30:31 pid:15724 Workerman[start_http.php] has been stopped
+2018-08-30 10:30:36 pid:15748 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 10:30:39 pid:15750 Error: Call to a member function getGoodsInfo() on null in /var/www/html/jd.open.beeapi.cn/start_http.php:26
+Stack trace:
+#0 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#1 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#2 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1154, 2, Resource id #1154)
+#4 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#5 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#6 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(92): Workerman\Worker->run()
+#7 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#8 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#9 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#11 /var/www/html/jd.open.beeapi.cn/start_http.php(68): Workerman\Worker::runAll()
+#12 {main}
+2018-08-30 10:30:39 pid:15750 Worker[15750] process terminated
+2018-08-30 10:30:39 pid:15748 worker[http:15750] exit with status 64000
+2018-08-30 10:30:42 pid:15748 Workerman[start_http.php] stopping ...
+2018-08-30 10:30:42 pid:15748 Workerman[start_http.php] has been stopped
+2018-08-30 10:31:01 pid:15758 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 10:31:12 pid:15761 Error: Call to undefined function response_success() in /var/www/html/jd.open.beeapi.cn/lib/unionapi.php:67
+Stack trace:
+#0 /var/www/html/jd.open.beeapi.cn/start_http.php(27): UnionController->getGoodsInfo(Object(stdClass))
+#1 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1154, 2, Resource id #1154)
+#5 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.beeapi.cn/start_http.php(69): Workerman\Worker::runAll()
+#13 {main}
+2018-08-30 10:31:12 pid:15761 Worker[15761] process terminated
+2018-08-30 10:31:12 pid:15758 worker[http:15761] exit with status 64000
+2018-08-30 10:32:09 pid:15758 Workerman[start_http.php] stopping ...
+2018-08-30 10:32:09 pid:15758 Workerman[start_http.php] has been stopped
+2018-08-30 10:32:11 pid:15773 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 10:33:36 pid:15773 Workerman[start_http.php] stopping ...
+2018-08-30 10:33:36 pid:15773 Workerman[start_http.php] has been stopped
+2018-08-30 10:33:41 pid:15830 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 10:35:02 pid:15830 Workerman[start_http.php] stopping ...
+2018-08-30 10:35:02 pid:15830 Workerman[start_http.php] has been stopped
+2018-08-30 10:37:20 pid:15865 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 11:02:28 pid:15865 Workerman[start_http.php] stopping ...
+2018-08-30 11:02:28 pid:15865 Workerman[start_http.php] has been stopped
+2018-08-30 11:02:31 pid:16106 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 12:31:53 pid:16106 Workerman[start_http.php] stopping ...
+2018-08-30 12:31:53 pid:16106 Workerman[start_http.php] has been stopped
+2018-08-30 12:31:57 pid:16928 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 12:33:11 pid:16930 Error: Call to undefined method Redis::has() in /var/www/html/jd.open.beeapi.cn/lib/auth.php:8
+Stack trace:
+#0 /var/www/html/jd.open.beeapi.cn/start_http.php(21): Auth::verify()
+#1 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(52): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1156, 2, Resource id #1156)
+#5 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.beeapi.cn/start_http.php(84): Workerman\Worker::runAll()
+#13 {main}
+2018-08-30 12:33:11 pid:16930 Worker[16930] process terminated
+2018-08-30 12:33:11 pid:16928 worker[http:16930] exit with status 64000
+2018-08-30 12:34:44 pid:16928 Workerman[start_http.php] stopping ...
+2018-08-30 12:34:44 pid:16928 Workerman[start_http.php] has been stopped
+2018-08-30 12:34:47 pid:16956 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 12:34:51 pid:16958 Error: Call to undefined method Redis::inc() in /var/www/html/jd.open.beeapi.cn/lib/auth.php:11
+Stack trace:
+#0 /var/www/html/jd.open.beeapi.cn/start_http.php(21): Auth::verify()
+#1 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(52): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1156, 2, Resource id #1156)
+#5 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.beeapi.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.beeapi.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.beeapi.cn/start_http.php(84): Workerman\Worker::runAll()
+#13 {main}
+2018-08-30 12:34:51 pid:16958 Worker[16958] process terminated
+2018-08-30 12:34:51 pid:16956 worker[http:16958] exit with status 64000
+2018-08-30 12:35:08 pid:16956 Workerman[start_http.php] stopping ...
+2018-08-30 12:35:08 pid:16956 Workerman[start_http.php] has been stopped
+2018-08-30 12:35:09 pid:16966 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 12:35:43 pid:16966 Workerman[start_http.php] stopping ...
+2018-08-30 12:35:43 pid:16966 Workerman[start_http.php] has been stopped
+2018-08-30 12:35:44 pid:16980 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 12:36:14 pid:16980 Workerman[start_http.php] stopping ...
+2018-08-30 12:36:14 pid:16980 Workerman[start_http.php] has been stopped
+2018-08-30 12:36:16 pid:16992 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 12:37:11 pid:16992 Workerman[start_http.php] stopping ...
+2018-08-30 12:37:11 pid:16992 Workerman[start_http.php] has been stopped
+2018-08-30 12:37:46 pid:17014 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 12:39:17 pid:17014 Workerman[start_http.php] stopping ...
+2018-08-30 12:39:17 pid:17014 Workerman[start_http.php] has been stopped
+2018-08-30 13:24:05 pid:2526 Workerman[start_http.php] start in DAEMON mode
+2018-08-30 13:24:59 pid:2579 Workerman[start_http.php] status 
+2018-08-30 13:29:39 pid:2827 Workerman[start_http.php] status 
+2018-08-30 13:29:51 pid:2832 Workerman[start_http.php] stop 
+2018-08-30 13:29:51 pid:2832 Workerman[start_http.php] is stopping ...
+2018-08-30 13:29:51 pid:2533 Workerman[start_http.php] stopping ...
+2018-08-30 13:29:51 pid:2533 Workerman[start_http.php] has been stopped
+2018-08-30 13:29:51 pid:2832 Workerman[start_http.php] stop success
+2018-08-30 13:33:43 pid:3026 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 13:33:50 pid:3026 Workerman[start_http.php] stopping ...
+2018-08-30 13:33:50 pid:3026 Workerman[start_http.php] has been stopped
+2018-08-30 13:34:53 pid:3089 Workerman[start_http.php] start in DEBUG mode
+2018-08-30 13:36:06 pid:3089 Workerman[start_http.php] stopping ...
+2018-08-30 13:36:06 pid:3089 Workerman[start_http.php] has been stopped
+2018-08-30 13:36:08 pid:3164 Workerman[start_http.php] start in DAEMON mode
+2018-08-30 13:37:11 pid:3231 Workerman[start_http.php] status 
+2018-08-30 13:53:43 pid:4113 Workerman[start_http.php] status 
+2018-08-30 13:58:39 pid:4363 Workerman[start_http.php] status 
+2018-08-30 14:05:30 pid:4711 Workerman[start_http.php] status 
+2018-08-30 14:36:26 pid:6301 Workerman[start_http.php] status 
+2018-08-30 15:05:02 pid:7764 Workerman[start_http.php] status 
+2018-08-30 16:15:41 pid:11581 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-08-30 16:45:01 pid:13167 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-08-30 16:45:01 pid:13167 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-08-30 16:45:01 pid:3167 Workerman[start_http.php] stopping ...
+2018-08-30 16:45:01 pid:3167 Workerman[start_http.php] has been stopped
+2018-08-30 16:45:01 pid:13167 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-08-30 16:54:31 pid:13681 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-08-30 16:54:31 pid:13681 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-08-30 16:54:31 pid:13170 Workerman[start_http.php] stopping ...
+2018-08-30 16:54:31 pid:13170 Workerman[start_http.php] has been stopped
+2018-08-30 16:54:31 pid:13681 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-08-30 16:56:07 pid:13767 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-08-30 17:25:56 pid:15297 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-08-30 17:25:56 pid:15297 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-08-30 17:25:56 pid:13683 Workerman[start_http.php] stopping ...
+2018-08-30 17:25:56 pid:13683 Workerman[start_http.php] has been stopped
+2018-08-30 17:25:56 pid:15297 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-08-30 17:26:02 pid:15317 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-08-30 17:26:51 pid:15356 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-08-31 19:55:16 pid:1127 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-08-31 19:55:16 pid:1127 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-08-31 19:55:16 pid:15299 Workerman[start_http.php] stopping ...
+2018-08-31 19:55:16 pid:15299 Workerman[start_http.php] has been stopped
+2018-08-31 19:55:16 pid:1127 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-08-31 19:55:22 pid:1141 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-08-31 20:01:33 pid:1480 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-08-31 21:53:59 pid:26219 Workerman[start_http.php] start in DAEMON mode
+2018-09-01 10:52:24 pid:14635 Workerman[jd.open.apith.cn/start_http.php] restart 
+2018-09-01 10:52:24 pid:14635 Workerman[jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-01 10:52:24 pid:26221 Workerman[start_http.php] stopping ...
+2018-09-01 10:52:24 pid:26221 Workerman[start_http.php] has been stopped
+2018-09-01 10:52:24 pid:14635 Workerman[jd.open.apith.cn/start_http.php] stop success
+2018-09-01 10:57:37 pid:14695 Workerman[jd.open.apith.cn/start_http.php] restart 
+2018-09-01 10:57:37 pid:14695 Workerman[jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-01 10:57:37 pid:14643 Workerman[start_http.php] stopping ...
+2018-09-01 10:57:37 pid:14643 Workerman[start_http.php] has been stopped
+2018-09-01 10:57:37 pid:14695 Workerman[jd.open.apith.cn/start_http.php] stop success
+2018-09-01 10:59:26 pid:14716 Workerman[jd.open.apith.cn/start_http.php] restart 
+2018-09-01 10:59:26 pid:14716 Workerman[jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-01 10:59:26 pid:14697 Workerman[start_http.php] stopping ...
+2018-09-01 10:59:26 pid:14697 Workerman[start_http.php] has been stopped
+2018-09-01 10:59:26 pid:14716 Workerman[jd.open.apith.cn/start_http.php] stop success
+2018-09-01 10:59:32 pid:14725 Workerman[jd.open.apith.cn/start_http.php] restart 
+2018-09-01 10:59:32 pid:14725 Workerman[jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-01 10:59:32 pid:14718 Workerman[start_http.php] stopping ...
+2018-09-01 10:59:32 pid:14718 Workerman[start_http.php] has been stopped
+2018-09-01 10:59:32 pid:14725 Workerman[jd.open.apith.cn/start_http.php] stop success
+2018-09-01 10:59:39 pid:14733 Workerman[jd.open.apith.cn/start_http.php] status 
+2018-09-01 10:59:52 pid:14736 Workerman[jd.open.apith.cn/start_http.php] stop 
+2018-09-01 10:59:52 pid:14736 Workerman[jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-01 10:59:52 pid:14727 Workerman[start_http.php] stopping ...
+2018-09-01 10:59:52 pid:14727 Workerman[start_http.php] has been stopped
+2018-09-01 10:59:52 pid:14736 Workerman[jd.open.apith.cn/start_http.php] stop success
+2018-09-01 11:00:04 pid:14742 Workerman[jd.open.apith.cn/start_http.php] start in DAEMON mode
+2018-09-01 14:08:06 pid:1333 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] start in DAEMON mode
+2018-09-05 14:06:58 pid:1342 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #3002, 2, Resource id #3002)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#13 {main}
+2018-09-05 14:06:58 pid:1342 Worker[1342] process terminated
+2018-09-05 14:06:58 pid:1337 worker[JDUnion-Http-API:1342] exit with status 64000
+2018-09-05 14:09:06 pid:10507 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2250, 2, Resource id #2250)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:09:06 pid:10507 Worker[10507] process terminated
+2018-09-05 14:09:06 pid:1337 worker[JDUnion-Http-API:10507] exit with status 64000
+2018-09-05 14:09:37 pid:1341 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2533, 2, Resource id #2533)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#13 {main}
+2018-09-05 14:09:37 pid:1341 Worker[1341] process terminated
+2018-09-05 14:09:37 pid:1337 worker[JDUnion-Http-API:1341] exit with status 64000
+2018-09-05 14:10:40 pid:10583 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2252, 2, Resource id #2252)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:10:40 pid:10583 Worker[10583] process terminated
+2018-09-05 14:10:40 pid:1337 worker[JDUnion-Http-API:10583] exit with status 64000
+2018-09-05 14:11:47 pid:10579 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2251, 2, Resource id #2251)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:11:47 pid:10579 Worker[10579] process terminated
+2018-09-05 14:11:47 pid:1337 worker[JDUnion-Http-API:10579] exit with status 64000
+2018-09-05 14:13:27 pid:10594 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2259, 2, Resource id #2259)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:13:27 pid:10594 Worker[10594] process terminated
+2018-09-05 14:13:27 pid:1337 worker[JDUnion-Http-API:10594] exit with status 64000
+2018-09-05 14:14:34 pid:10615 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2255, 2, Resource id #2255)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:14:34 pid:10615 Worker[10615] process terminated
+2018-09-05 14:14:34 pid:1337 worker[JDUnion-Http-API:10615] exit with status 64000
+2018-09-05 14:16:33 pid:10629 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2256, 2, Resource id #2256)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:16:33 pid:10629 Worker[10629] process terminated
+2018-09-05 14:16:33 pid:1337 worker[JDUnion-Http-API:10629] exit with status 64000
+2018-09-05 14:42:29 pid:10649 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2260, 2, Resource id #2260)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:42:29 pid:10649 Worker[10649] process terminated
+2018-09-05 14:42:29 pid:1337 worker[JDUnion-Http-API:10649] exit with status 64000
+2018-09-05 14:57:50 pid:10603 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2260, 2, Resource id #2260)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 14:57:50 pid:10603 Worker[10603] process terminated
+2018-09-05 14:57:50 pid:1337 worker[JDUnion-Http-API:10603] exit with status 64000
+2018-09-05 15:14:12 pid:10997 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2262, 2, Resource id #2262)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:14:12 pid:10997 Worker[10997] process terminated
+2018-09-05 15:14:12 pid:1337 worker[JDUnion-Http-API:10997] exit with status 64000
+2018-09-05 15:17:08 pid:11167 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2260, 2, Resource id #2260)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:17:08 pid:11167 Worker[11167] process terminated
+2018-09-05 15:17:08 pid:1337 worker[JDUnion-Http-API:11167] exit with status 64000
+2018-09-05 15:27:27 pid:10883 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2268, 2, Resource id #2268)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:27:27 pid:10883 Worker[10883] process terminated
+2018-09-05 15:27:27 pid:1337 worker[JDUnion-Http-API:10883] exit with status 64000
+2018-09-05 15:27:33 pid:11198 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2270, 2, Resource id #2270)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:27:33 pid:11198 Worker[11198] process terminated
+2018-09-05 15:27:33 pid:1337 worker[JDUnion-Http-API:11198] exit with status 64000
+2018-09-05 15:30:34 pid:11320 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2263, 2, Resource id #2263)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:30:34 pid:11320 Worker[11320] process terminated
+2018-09-05 15:30:34 pid:1337 worker[JDUnion-Http-API:11320] exit with status 64000
+2018-09-05 15:30:36 pid:11318 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2262, 2, Resource id #2262)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:30:36 pid:11318 Worker[11318] process terminated
+2018-09-05 15:30:36 pid:1337 worker[JDUnion-Http-API:11318] exit with status 64000
+2018-09-05 15:32:11 pid:11353 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2264, 2, Resource id #2264)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:32:11 pid:11353 Worker[11353] process terminated
+2018-09-05 15:32:11 pid:1337 worker[JDUnion-Http-API:11353] exit with status 64000
+2018-09-05 15:32:13 pid:11355 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2271, 2, Resource id #2271)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-05 15:32:13 pid:11355 Worker[11355] process terminated
+2018-09-05 15:32:13 pid:1337 worker[JDUnion-Http-API:11355] exit with status 64000
+2018-09-10 11:28:11 pid:10276 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-10 11:28:11 pid:10276 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-10 11:28:11 pid:1337 Workerman[start_http.php] stopping ...
+2018-09-10 11:28:11 pid:1337 Workerman[start_http.php] has been stopped
+2018-09-10 11:28:11 pid:10276 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-11 01:32:20 pid:10282 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #7581, 2, Resource id #7581)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#13 {main}
+2018-09-11 01:32:20 pid:10282 Worker[10282] process terminated
+2018-09-11 01:32:20 pid:10279 worker[JDUnion-Http-API:10282] exit with status 64000
+2018-09-11 01:40:33 pid:1531 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:310
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(65): UnionController->queryCouponGoods(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1358, 2, Resource id #1358)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 01:40:33 pid:1531 Worker[1531] process terminated
+2018-09-11 01:40:33 pid:10279 worker[JDUnion-Http-API:1531] exit with status 64000
+2018-09-11 01:52:31 pid:10284 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #8109, 2, Resource id #8109)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#13 {main}
+2018-09-11 01:52:31 pid:10284 Worker[10284] process terminated
+2018-09-11 01:52:31 pid:10279 worker[JDUnion-Http-API:10284] exit with status 64000
+2018-09-11 02:38:10 pid:1656 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2556, 2, Resource id #2556)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 02:38:10 pid:1656 Worker[1656] process terminated
+2018-09-11 02:38:10 pid:10279 worker[JDUnion-Http-API:1656] exit with status 64000
+2018-09-11 10:36:14 pid:1756 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:310
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(65): UnionController->queryCouponGoods(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #11991, 2, Resource id #11991)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 10:36:14 pid:1756 Worker[1756] process terminated
+2018-09-11 10:36:14 pid:10279 worker[JDUnion-Http-API:1756] exit with status 64000
+2018-09-11 13:00:04 pid:7180 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #2310, 2, Resource id #2310)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:00:04 pid:7180 Worker[7180] process terminated
+2018-09-11 13:00:04 pid:10279 worker[JDUnion-Http-API:7180] exit with status 64000
+2018-09-11 13:00:07 pid:8710 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1167, 2, Resource id #1167)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:00:07 pid:8710 Worker[8710] process terminated
+2018-09-11 13:00:07 pid:10279 worker[JDUnion-Http-API:8710] exit with status 64000
+2018-09-11 13:00:16 pid:2261 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #12044, 2, Resource id #12044)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:00:16 pid:2261 Worker[2261] process terminated
+2018-09-11 13:00:16 pid:10279 worker[JDUnion-Http-API:2261] exit with status 64000
+2018-09-11 13:01:20 pid:8713 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1168, 2, Resource id #1168)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:01:20 pid:8713 Worker[8713] process terminated
+2018-09-11 13:01:20 pid:10279 worker[JDUnion-Http-API:8713] exit with status 64000
+2018-09-11 13:02:08 pid:8715 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1169, 2, Resource id #1169)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:02:08 pid:8715 Worker[8715] process terminated
+2018-09-11 13:02:08 pid:10279 worker[JDUnion-Http-API:8715] exit with status 64000
+2018-09-11 13:02:12 pid:8725 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1170, 2, Resource id #1170)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:02:12 pid:8725 Worker[8725] process terminated
+2018-09-11 13:02:12 pid:10279 worker[JDUnion-Http-API:8725] exit with status 64000
+2018-09-11 13:02:35 pid:8730 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1171, 2, Resource id #1171)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:02:35 pid:8730 Worker[8730] process terminated
+2018-09-11 13:02:35 pid:10279 worker[JDUnion-Http-API:8730] exit with status 64000
+2018-09-11 13:03:24 pid:8733 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1172, 2, Resource id #1172)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:03:24 pid:8733 Worker[8733] process terminated
+2018-09-11 13:03:24 pid:10279 worker[JDUnion-Http-API:8733] exit with status 64000
+2018-09-11 13:03:27 pid:8736 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1173, 2, Resource id #1173)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:03:27 pid:8736 Worker[8736] process terminated
+2018-09-11 13:03:27 pid:10279 worker[JDUnion-Http-API:8736] exit with status 64000
+2018-09-11 13:04:44 pid:8745 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1174, 2, Resource id #1174)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:04:44 pid:8745 Worker[8745] process terminated
+2018-09-11 13:04:44 pid:10279 worker[JDUnion-Http-API:8745] exit with status 64000
+2018-09-11 13:04:47 pid:8748 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1175, 2, Resource id #1175)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:04:47 pid:8748 Worker[8748] process terminated
+2018-09-11 13:04:47 pid:10279 worker[JDUnion-Http-API:8748] exit with status 64000
+2018-09-11 13:06:02 pid:8763 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1177, 2, Resource id #1177)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:06:02 pid:8763 Worker[8763] process terminated
+2018-09-11 13:06:02 pid:10279 worker[JDUnion-Http-API:8763] exit with status 64000
+2018-09-11 13:06:05 pid:8761 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1182, 2, Resource id #1182)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:06:05 pid:8761 Worker[8761] process terminated
+2018-09-11 13:06:05 pid:10279 worker[JDUnion-Http-API:8761] exit with status 64000
+2018-09-11 13:06:24 pid:8776 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1178, 2, Resource id #1178)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:06:24 pid:8776 Worker[8776] process terminated
+2018-09-11 13:06:24 pid:10279 worker[JDUnion-Http-API:8776] exit with status 64000
+2018-09-11 13:06:27 pid:8779 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1179, 2, Resource id #1179)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(89): Workerman\Worker::runAll()
+#15 {main}
+2018-09-11 13:06:27 pid:8779 Worker[8779] process terminated
+2018-09-11 13:06:27 pid:10279 worker[JDUnion-Http-API:8779] exit with status 64000
+2018-09-11 13:16:06 pid:9022 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-09-11 13:16:20 pid:9030 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-11 13:16:20 pid:9030 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-11 13:16:20 pid:10279 Workerman[start_http.php] stopping ...
+2018-09-11 13:16:20 pid:10279 Workerman[start_http.php] has been stopped
+2018-09-11 13:16:20 pid:9030 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-11 17:42:42 pid:9049 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(61): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1746, 2, Resource id #1746)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(96): Workerman\Worker::runAll()
+#13 {main}
+2018-09-11 17:42:42 pid:9049 Worker[9049] process terminated
+2018-09-11 17:42:42 pid:9045 worker[JDUnion-Http-API:9049] exit with status 64000
+2018-09-11 22:07:31 pid:9047 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:461
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(77): UnionController->short2WXSQ(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1179, 2, Resource id #1179)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(96): Workerman\Worker::runAll()
+#13 {main}
+2018-09-11 22:07:31 pid:9047 Worker[9047] process terminated
+2018-09-11 22:07:31 pid:9045 worker[JDUnion-Http-API:9047] exit with status 64000
+2018-09-12 09:46:40 pid:2417 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-09-12 09:46:53 pid:2420 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-12 09:46:53 pid:2420 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-12 09:46:53 pid:9045 Workerman[start_http.php] stopping ...
+2018-09-12 09:46:53 pid:9045 Workerman[start_http.php] has been stopped
+2018-09-12 09:46:53 pid:2420 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-12 09:49:55 pid:2465 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-12 09:49:55 pid:2465 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-12 09:49:55 pid:2424 Workerman[start_http.php] stopping ...
+2018-09-12 09:49:55 pid:2424 Workerman[start_http.php] has been stopped
+2018-09-12 09:49:55 pid:2465 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-12 12:40:48 pid:4463 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-09-12 12:41:39 pid:4474 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-12 12:41:39 pid:4474 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-12 12:41:39 pid:2467 Workerman[start_http.php] stopping ...
+2018-09-12 12:41:39 pid:2467 Workerman[start_http.php] has been stopped
+2018-09-12 12:41:39 pid:4474 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-12 12:52:12 pid:4579 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-12 12:52:12 pid:4579 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-12 12:52:12 pid:4476 Workerman[start_http.php] stopping ...
+2018-09-12 12:52:12 pid:4476 Workerman[start_http.php] has been stopped
+2018-09-12 12:52:12 pid:4579 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-12 12:56:28 pid:4627 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-12 12:56:28 pid:4627 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-12 12:56:28 pid:4581 Workerman[start_http.php] stopping ...
+2018-09-12 12:56:28 pid:4581 Workerman[start_http.php] has been stopped
+2018-09-12 12:56:28 pid:4627 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-12 13:30:46 pid:5014 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-12 13:30:46 pid:5014 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-12 13:30:46 pid:4629 Workerman[start_http.php] stopping ...
+2018-09-12 13:30:46 pid:4629 Workerman[start_http.php] has been stopped
+2018-09-12 13:30:46 pid:5014 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-12 14:08:16 pid:5541 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-12 14:08:16 pid:5541 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-12 14:08:16 pid:5016 Workerman[start_http.php] stopping ...
+2018-09-12 14:08:16 pid:5016 Workerman[start_http.php] has been stopped
+2018-09-12 14:08:16 pid:5541 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-13 11:21:06 pid:31750 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-09-13 11:21:33 pid:31756 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-13 11:21:33 pid:31756 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-13 11:21:33 pid:5546 Workerman[start_http.php] stopping ...
+2018-09-13 11:21:34 pid:5546 Workerman[start_http.php] has been stopped
+2018-09-13 11:21:34 pid:31756 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-13 11:25:24 pid:31808 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-13 11:25:24 pid:31808 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-13 11:25:24 pid:31760 Workerman[start_http.php] stopping ...
+2018-09-13 11:25:24 pid:31760 Workerman[start_http.php] has been stopped
+2018-09-13 11:25:24 pid:31808 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-13 12:04:58 pid:32173 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-13 12:04:58 pid:32173 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-13 12:04:58 pid:31811 Workerman[start_http.php] stopping ...
+2018-09-13 12:04:58 pid:31811 Workerman[start_http.php] has been stopped
+2018-09-13 12:04:58 pid:32173 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-13 12:05:57 pid:32191 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-13 12:05:57 pid:32191 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-13 12:05:57 pid:32175 Workerman[start_http.php] stopping ...
+2018-09-13 12:05:57 pid:32175 Workerman[start_http.php] has been stopped
+2018-09-13 12:05:57 pid:32191 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-13 12:14:05 pid:32315 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-13 12:14:05 pid:32315 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-13 12:14:05 pid:32193 Workerman[start_http.php] stopping ...
+2018-09-13 12:14:05 pid:32193 Workerman[start_http.php] has been stopped
+2018-09-13 12:14:05 pid:32315 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-13 12:41:05 pid:32613 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-13 12:41:05 pid:32613 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-13 12:41:05 pid:32317 Workerman[start_http.php] stopping ...
+2018-09-13 12:41:05 pid:32317 Workerman[start_http.php] has been stopped
+2018-09-13 12:41:05 pid:32613 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-17 00:32:04 pid:32620 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:199
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(80): UnionController->queryPromotionSite(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #7382, 2, Resource id #7382)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#13 {main}
+2018-09-17 00:32:04 pid:32620 Worker[32620] process terminated
+2018-09-17 00:32:04 pid:32615 worker[JDUnion-Http-API:32620] exit with status 64000
+2018-09-17 00:48:31 pid:25070 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:199
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(80): UnionController->queryPromotionSite(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1266, 2, Resource id #1266)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-17 00:48:31 pid:25070 Worker[25070] process terminated
+2018-09-17 00:48:31 pid:32615 worker[JDUnion-Http-API:25070] exit with status 64000
+2018-09-18 10:05:28 pid:7933 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-09-18 10:05:59 pid:7939 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] restart 
+2018-09-18 10:05:59 pid:7939 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] is stopping ...
+2018-09-18 10:05:59 pid:32615 Workerman[start_http.php] stopping ...
+2018-09-18 10:05:59 pid:32615 Workerman[start_http.php] has been stopped
+2018-09-18 10:05:59 pid:7939 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] stop success
+2018-09-18 10:06:03 pid:7960 Workerman[/var/www/html/jd.open.apith.cn/start_http.php] status 
+2018-09-19 21:44:08 pid:7958 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:340
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(96): UnionController->getInfo(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24154, 2, Resource id #24154)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#13 {main}
+2018-09-19 21:44:08 pid:7958 Worker[7958] process terminated
+2018-09-19 21:44:08 pid:7943 worker[JDUnion-Http-API:7958] exit with status 64000
+2018-09-19 22:07:48 pid:7959 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:340
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(96): UnionController->getInfo(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24662, 2, Resource id #24662)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#13 {main}
+2018-09-19 22:07:48 pid:7959 Worker[7959] process terminated
+2018-09-19 22:07:48 pid:7943 worker[JDUnion-Http-API:7959] exit with status 64000
+2018-09-21 08:40:13 pid:10978 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:310
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(92): UnionController->queryCouponGoods(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24763, 2, Resource id #24763)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-21 08:40:13 pid:10978 Worker[10978] process terminated
+2018-09-21 08:40:13 pid:7943 worker[JDUnion-Http-API:10978] exit with status 64000
+2018-09-22 16:38:55 pid:10789 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:340
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(96): UnionController->getInfo(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49676, 2, Resource id #49676)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-22 16:38:55 pid:10789 Worker[10789] process terminated
+2018-09-22 16:38:55 pid:7943 worker[JDUnion-Http-API:10789] exit with status 64000
+2018-09-24 00:37:30 pid:26489 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:340
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(96): UnionController->getInfo(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53796, 2, Resource id #53796)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-24 00:37:30 pid:26489 Worker[26489] process terminated
+2018-09-24 00:37:30 pid:7943 worker[JDUnion-Http-API:26489] exit with status 64000
+2018-09-26 00:15:06 pid:28214 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:595
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(112): UnionController->queryOrderListWithKey(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #42971, 2, Resource id #42971)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-26 00:15:06 pid:28214 Worker[28214] process terminated
+2018-09-26 00:15:06 pid:7943 worker[JDUnion-Http-API:28214] exit with status 64000
+2018-09-26 12:39:48 pid:27707 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(88): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #81640, 2, Resource id #81640)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-26 12:39:48 pid:27707 Worker[27707] process terminated
+2018-09-26 12:39:49 pid:7943 worker[JDUnion-Http-API:27707] exit with status 64000
+2018-09-28 03:11:28 pid:8548 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(88): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #41535, 2, Resource id #41535)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-28 03:11:28 pid:8548 Worker[8548] process terminated
+2018-09-28 03:11:28 pid:7943 worker[JDUnion-Http-API:8548] exit with status 64000
+2018-09-28 03:13:07 pid:7955 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:263
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(88): UnionController->getCouponCodeByUnionId(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #4364, 2, Resource id #4364)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#13 {main}
+2018-09-28 03:13:07 pid:7955 Worker[7955] process terminated
+2018-09-28 03:13:07 pid:7943 worker[JDUnion-Http-API:7955] exit with status 64000
+2018-09-28 03:16:11 pid:27767 Error: Cannot use object of type stdClass as array in /var/www/html/jd.open.apith.cn/lib/unionapi.php:310
+Stack trace:
+#0 /var/www/html/jd.open.apith.cn/start_http.php(92): UnionController->queryCouponGoods(Object(stdClass))
+#1 /var/www/html/jd.open.apith.cn/lib/app_http.php(64): {closure}(Object(stdClass))
+#2 [internal function]: App->onClientMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #1813, 2, Resource id #1813)
+#5 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /var/www/html/jd.open.apith.cn/lib/app_http.php(92): Workerman\Worker->run()
+#8 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1356): App->run()
+#9 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(App))
+#10 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#11 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#12 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#13 /var/www/html/jd.open.apith.cn/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#14 /var/www/html/jd.open.apith.cn/start_http.php(126): Workerman\Worker::runAll()
+#15 {main}
+2018-09-28 03:16:11 pid:27767 Worker[27767] process terminated
+2018-09-28 03:16:11 pid:7943 worker[JDUnion-Http-API:27767] exit with status 64000

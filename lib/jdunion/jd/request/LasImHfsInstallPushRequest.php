@@ -1,0 +1,107 @@
+<?php
+class LasImHfsInstallPushRequest
+{
+	private $apiParas = array();
+	
+	public function getApiMethodName(){
+	  return "jingdong.las.im.hfs.install.push";
+	}
+	
+	public function getApiParas(){
+		return json_encode($this->apiParas);
+	}
+	
+	public function check(){
+		
+	}
+	
+	public function putOtherTextParam($key, $value){
+		$this->apiParas[$key] = $value;
+		$this->$key = $value;
+	}
+                                                        		                                    	                   			private $ordNo;
+    	                                                            
+	public function setOrdNo($ordNo){
+		$this->ordNo = $ordNo;
+         $this->apiParas["ord_no"] = $ordNo;
+	}
+
+	public function getOrdNo(){
+	  return $this->ordNo;
+	}
+
+                        	                   			private $serProNo;
+    	                                                                        
+	public function setSerProNo($serProNo){
+		$this->serProNo = $serProNo;
+         $this->apiParas["ser_pro_no"] = $serProNo;
+	}
+
+	public function getSerProNo(){
+	  return $this->serProNo;
+	}
+
+                        	                   			private $verCod;
+    	                                                            
+	public function setVerCod($verCod){
+		$this->verCod = $verCod;
+         $this->apiParas["ver_cod"] = $verCod;
+	}
+
+	public function getVerCod(){
+	  return $this->verCod;
+	}
+
+                        	                   			private $opeT;
+    	                                                            
+	public function setOpeT($opeT){
+		$this->opeT = $opeT;
+         $this->apiParas["ope_t"] = $opeT;
+	}
+
+	public function getOpeT(){
+	  return $this->opeT;
+	}
+
+                        	                   			private $opeN;
+    	                                                            
+	public function setOpeN($opeN){
+		$this->opeN = $opeN;
+         $this->apiParas["ope_n"] = $opeN;
+	}
+
+	public function getOpeN(){
+	  return $this->opeN;
+	}
+
+                        	                   			private $opeTel;
+    	                                                            
+	public function setOpeTel($opeTel){
+		$this->opeTel = $opeTel;
+         $this->apiParas["ope_tel"] = $opeTel;
+	}
+
+	public function getOpeTel(){
+	  return $this->opeTel;
+	}
+
+                        	                   			private $insDet;
+    	                                                            
+	public function setInsDet($insDet){
+		$this->insDet = $insDet;
+         $this->apiParas["ins_det"] = $insDet;
+	}
+
+	public function getInsDet(){
+	  return $this->insDet;
+	}
+
+                            }
+
+
+
+
+
+        
+ 
+
