@@ -10,6 +10,8 @@
 
 文档地址：https://www.coderdoc.cn/jdapi
 
+接口访问统计：https://jdstatus.open.apith.cn/
+
 您可以根据文档，立马开始使用起来啦~
 
 **联系**
