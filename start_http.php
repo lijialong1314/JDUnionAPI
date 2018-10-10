@@ -86,4 +86,8 @@ $app->get('/union/queryCategory', function($req) {
         global $union;
         return $union->queryCategory($req);
 });
+$app->get('/union/getGoodsDetail', function($req) {
+        global $union;
+        return $union->getGoodsDetail($req);
+});
 App::runAll();

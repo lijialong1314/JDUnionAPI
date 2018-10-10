@@ -756,6 +756,44 @@ class UnionController{
         }
     }
     
+    //查询商品详情图片
+    public function getGoodsDetail($request){
+
+       $param = $request->params;
+        $result = $this->check($param,[
+            "Required"=>["id"]
+        ]);
+        if($result !== true){
+            return $this->response_error(__FUNCTION__,"error",$result);
+        }
+        
+        $id = $param["id"];
+        if(!is_numeric($id)){
+            return $this->response_error(__FUNCTION__,"$id 不是有效的商品ID","");
+        }
+
+        $jdurl = "http://item.jd.com/$id.html";
+        $html = file_get_contents($jdurl);
+        preg_match("/desc: '(\S+)'/",$html, $regs);
+        
+        if(count($regs)==2){
+            $descUrl  = $regs[1];
+            $detail = file_get_contents("https:".$descUrl);
+            if($detail){
+                $detail = json_decode($detail,true);
+                $content = $detail["content"];
+                
+                if(strstr($content,"data-lazyload")>-1){
+                    $regImg = '/data-lazyload="([^ \t]+)"/';
+                    preg_match_all($regImg,$content,$matchAll);
+                    return $this->response_success(__FUNCTION__,"success",$matchAll[1]);
+                }else{
+                    return $this->response_success(__FUNCTION__,"success",$content);
+                }
+            }
+        }
+        return $this->response_error(__FUNCTION__,"ID：$id 没有解析到详情信息","");
+    }
     
     private function short2id($shorturl){
         $html = file_get_contents($shorturl);
